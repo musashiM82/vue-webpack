@@ -10,7 +10,7 @@ module.exports = defineConfig({
     optimization: {
       splitChunks: {
         cacheGroups: {
-          default: false,
+          defaultVendors: false,
         },
       },
     },
